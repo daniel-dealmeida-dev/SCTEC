@@ -7,5 +7,18 @@
     "js/ts.inlayHints.variableTypes.enabled": true,
     "js/ts.inlayHints.parameterNames.enabled": "all",
     "js/ts.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
-    "js/ts.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true
+    "js/ts.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+
+    // --- ADICIONE AS LINHAS ABAIXO ---
+    "eslint.enable": true,
+    "eslint.useFlatConfig": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    }
 }
